@@ -14,19 +14,18 @@
 
 <p align="center">
 
-![Microsoft](https://img.shields.io/badge/Microsoft-Cloud%20Ecosystem-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Azure Security](https://img.shields.io/badge/Azure-Security%20Operations-0078D4?style=for-the-badge)
-![Cloud Governance](https://img.shields.io/badge/Cloud-Governance-0078D4?style=for-the-badge)
-![AZ-900](https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=for-the-badge)
-![SC-900](https://img.shields.io/badge/SC--900-Security%20Compliance%20Identity-0078D4?style=for-the-badge)
-![AZ-500](https://img.shields.io/badge/AZ--500-Azure%20Security%20Engineer-0078D4?style=for-the-badge)
-![Microsoft Speaker](https://img.shields.io/badge/Microsoft-Technical%20Speaker-0078D4?style=for-the-badge)
-![Cloud Security](https://img.shields.io/badge/Cloud-Security%20Engineering-0078D4?style=for-the-badge)
+![Microsoft Cloud Ecosystem](https://img.shields.io/badge/Microsoft-Cloud%20Ecosystem-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft-Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Azure Security Operations](https://img.shields.io/badge/Azure-Security%20Operations-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Cloud Governance](https://img.shields.io/badge/Cloud-Governance-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![AZ-900](https://img.shields.io/badge/AZ--900-Azure%20Fundamentals-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![SC-900](https://img.shields.io/badge/SC--900-Security%20Compliance%20%26%20Identity-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![AZ-500](https://img.shields.io/badge/AZ--500-Azure%20Security%20Engineer-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Microsoft Technical Speaker](https://img.shields.io/badge/Microsoft-Technical%20Speaker-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Cloud Security Engineering](https://img.shields.io/badge/Cloud-Security%20Engineering-0078D4?style=flat-square&logo=microsoft&logoColor=white)
+![Enterprise Infrastructure](https://img.shields.io/badge/Enterprise-Infrastructure%20Operations-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 
 </p>
-
----
 
 <h3 align="center">
   <a href="#-microsoft-ecosystem">Microsoft Ecosystem</a>
