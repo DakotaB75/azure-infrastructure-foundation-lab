@@ -21,37 +21,37 @@ jobs:
 
       - name: Display repository structure
         run: |
-          echo "Current repository structure:"
+          echo "Repository structure:"
           ls -R
 
-      - name: Validate documentation directory
+      - name: Validate core documentation
         run: |
-          if [ ! -d "01_Documentacion" ]; then
-            echo "Missing 01_Documentacion"
-            exit 1
-          fi
+          test -f README.md
+          test -f LICENSE
+          test -f SECURITY.md
+          test -f CONTRIBUTING.md
+          test -f CODE_OF_CONDUCT.md
 
-      - name: Validate system directory
+      - name: Validate ERP documentation
         run: |
-          if [ ! -d "02_Sistema" ]; then
-            echo "Missing 02_Sistema"
-            exit 1
-          fi
+          test -f "01_Plan_de_Trabajo_Organizacional_ERP_Comercial.pdf"
+          test -f "02_SRS_ERP_Comercial_Amakha_v1.0.pdf"
+          test -f "03_DisenoSistema_ERP_Comercial_Amakha_v1.0.pdf"
+          test -f "04_CasosUso_ERP_Amakha_v1.0.pdf"
+          test -f "05_PlanPruebas_ERP_Amakha_v1.0.pdf"
+          test -f "06_PlanContingencia_ERP_Amakha_v1.0.pdf"
+          test -f "07_PlanAuditoria_ERP_Amakha_v1.0.pdf"
 
-      - name: Validate database directory
+      - name: Validate system structure
         run: |
-          if [ ! -d "03_BaseDatos" ]; then
-            echo "Missing 03_BaseDatos"
-            exit 1
-          fi
-
-      - name: Validate README
-        run: |
-          if [ ! -f "README.md" ]; then
-            echo "Missing README.md"
-            exit 1
-          fi
+          test -d 02_Sistema
+          test -f 02_Sistema/app/modules/caja/payment_engine.php
+          test -f 02_Sistema/app/services/report_generator.py
+          test -f 02_Sistema/app/services/fast_payment_engine.go
+          test -f 02_Sistema/app/services/BillingProcessor.java
+          test -f 02_Sistema/app/ui/cashier.js
+          test -f 02_Sistema/app/ui/cashier.tsx
 
       - name: Final validation
         run: |
-          echo "Enterprise repository validation completed successfully."
+          echo "Enterprise validation completed successfully."
