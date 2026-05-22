@@ -1,0 +1,1 @@
+console.log("Cashier interface initialized");
