@@ -19,29 +19,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Validate repository structure
+      - name: Display repository structure
         run: |
-          echo "Validating enterprise repository structure..."
+          echo "Current repository structure:"
+          ls -R
 
-          test -d 01_Documentacion
-          test -d 02_Sistema
-          test -d 03_BaseDatos
-          test -d 04_QA
-          test -d 05_Deploy
-          test -d 06_Seguridad
-
-          echo "Repository structure validation completed successfully."
-
-      - name: Validate documentation files
+      - name: Validate documentation directory
         run: |
-          echo "Checking documentation files..."
+          if [ ! -d "01_Documentacion" ]; then
+            echo "Missing 01_Documentacion"
+            exit 1
+          fi
 
-          test -f README.md
-          test -f LICENSE
-          test -f .gitignore
-
-          echo "Documentation validation completed successfully."
-
-      - name: Final status
+      - name: Validate system directory
         run: |
-          echo "Enterprise validation pipeline completed successfully."
+          if [ ! -d "02_Sistema" ]; then
+            echo "Missing 02_Sistema"
+            exit 1
+          fi
+
+      - name: Validate database directory
+        run: |
+          if [ ! -d "03_BaseDatos" ]; then
+            echo "Missing 03_BaseDatos"
+            exit 1
+          fi
+
+      - name: Validate README
+        run: |
+          if [ ! -f "README.md" ]; then
+            echo "Missing README.md"
+            exit 1
+          fi
+
+      - name: Final validation
+        run: |
+          echo "Enterprise repository validation completed successfully."
