@@ -1,0 +1,47 @@
+name: Enterprise Repository Validation
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+jobs:
+
+  repository-validation:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate repository structure
+        run: |
+          echo "Validating enterprise repository structure..."
+
+          test -d 01_Documentacion
+          test -d 02_Sistema
+          test -d 03_BaseDatos
+          test -d 04_QA
+          test -d 05_Deploy
+          test -d 06_Seguridad
+
+          echo "Repository structure validation completed successfully."
+
+      - name: Validate documentation files
+        run: |
+          echo "Checking documentation files..."
+
+          test -f README.md
+          test -f LICENSE
+          test -f .gitignore
+
+          echo "Documentation validation completed successfully."
+
+      - name: Final status
+        run: |
+          echo "Enterprise validation pipeline completed successfully."
