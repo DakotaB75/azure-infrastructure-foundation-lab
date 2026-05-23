@@ -28,18 +28,20 @@
 </p>
 
 <h3 align="center">
-  <a href="#-microsoft-ecosystem">Microsoft Ecosystem</a>
+
+<span style="color:#0078D4;">Microsoft Ecosystem</span>
+
 </h3>
 
 ---
-
-# Executive Overview
+<h1 align="center">
+  <img src="Logo%20Azure.png" width="38" valign="middle"/>
+  Executive Overview
+</h1>
 
 This repository contains a structured Microsoft Azure infrastructure environment developed as part of advanced practical training focused on enterprise cloud administration, Azure operational governance and cloud security fundamentals.
 
 The environment was designed following operational methodologies commonly applied within Microsoft Azure consulting ecosystems, emphasizing:
-
-<img align="right" src="Logo%20Azure.png" width="220" alt="Microsoft Azure"/>
 
 - infrastructure organization,
 - governance alignment,
