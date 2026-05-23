@@ -39,6 +39,8 @@ This repository contains a structured Microsoft Azure infrastructure environment
 
 The environment was designed following operational methodologies commonly applied within Microsoft Azure consulting ecosystems, emphasizing:
 
+<img align="right" src="Logo%20Azure.png" width="220" alt="Microsoft Azure"/>
+
 - infrastructure organization,
 - governance alignment,
 - operational visibility,
@@ -195,18 +197,36 @@ Controlled resource cleanup procedures implemented to maintain governance standa
 
 ---
 
+<table align="center">
+<tr>
+
+<td width="65%" valign="top">
+
 # Operational Evidence
 
 This repository includes operational deployment evidence and infrastructure validation material including:
 
-- Azure Portal screenshots
-- Infrastructure deployment records
-- Governance validation
-- Operational documentation
-- Resource lifecycle evidence
-- Connectivity validation
-- Technical implementation reporting
-- Microsoft Azure operational workflows
+- Azure Portal screenshots  
+- Infrastructure deployment records  
+- Governance validation  
+- Operational documentation  
+- Resource lifecycle evidence  
+- Connectivity validation  
+- Technical implementation reporting  
+- Microsoft Azure operational workflows  
+
+</td>
+
+<td width="35%" align="center" valign="middle">
+
+<img src="Logo%20Raccoon.png" width="260"/>
+
+</td>
+
+</tr>
+</table>
+
+---
 
 ---
 
@@ -257,3 +277,8 @@ The operational approach prioritizes:
 </div>
 
 ---
+<div align="left">
+
+<img src="Logo%20Marca%20de%20Agua.png" width="80"/>
+
+</div>
