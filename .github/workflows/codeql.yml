@@ -23,7 +23,6 @@ jobs:
         language:
           - python
           - javascript
-          - java
           - go
 
     steps:
