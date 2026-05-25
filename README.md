@@ -28,12 +28,16 @@
 </p>
 
 <h3 align="center">
-  <a href="#-microsoft-ecosystem">Microsoft Ecosystem</a>
+
+<span style="color:#0078D4;">Microsoft Ecosystem</span>
+
 </h3>
 
 ---
-
-# Executive Overview
+<h1 align="center">
+  <img src="Logo%20Azure.png" width="38" valign="middle"/>
+  Executive Overview
+</h1>
 
 This repository contains a structured Microsoft Azure infrastructure environment developed as part of advanced practical training focused on enterprise cloud administration, Azure operational governance and cloud security fundamentals.
 
@@ -195,18 +199,36 @@ Controlled resource cleanup procedures implemented to maintain governance standa
 
 ---
 
+<table align="center">
+<tr>
+
+<td width="65%" valign="top">
+
 # Operational Evidence
 
 This repository includes operational deployment evidence and infrastructure validation material including:
 
-- Azure Portal screenshots
-- Infrastructure deployment records
-- Governance validation
-- Operational documentation
-- Resource lifecycle evidence
-- Connectivity validation
-- Technical implementation reporting
-- Microsoft Azure operational workflows
+- Azure Portal screenshots  
+- Infrastructure deployment records  
+- Governance validation  
+- Operational documentation  
+- Resource lifecycle evidence  
+- Connectivity validation  
+- Technical implementation reporting  
+- Microsoft Azure operational workflows  
+
+</td>
+
+<td width="35%" align="center" valign="middle">
+
+<img src="Logo%20Raccoon.png" width="260"/>
+
+</td>
+
+</tr>
+</table>
+
+---
 
 ---
 
@@ -257,3 +279,8 @@ The operational approach prioritizes:
 </div>
 
 ---
+<div align="left">
+
+<img src="Logo%20Marca%20de%20Agua.png" width="80"/>
+
+</div>
