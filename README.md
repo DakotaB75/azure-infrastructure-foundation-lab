@@ -1,7 +1,9 @@
 <p align="center">
-  <img src="./docs/images/microsoft-azure-banner.png" width="100%">
+  <video autoplay loop muted playsinline width="100%">
+    <source src="./docs/videos/Microsoft Azure - Client.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
-
 <h1 align="center">
   <span>Azure Infrastructure & Cloud Security Foundation Lab</span>
 </h1>
