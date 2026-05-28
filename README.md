@@ -248,10 +248,15 @@ The operational approach prioritizes:
 
 ---
 
-# Technical Session
+# Azure Technical Demonstration Session
 
 <p align="center">
-  <img src="./docs/images/zoom-session.png" width="85%">
+  <img src="./docs/videos/sesion-tecnica1.gif" width="85%">
+</p>
+
+# Azure VM Linux Operational Session
+<p align="center">
+  <img src="./docs/videos/linux-sesion2.gif" width="85%">
 </p>
 
 <p align="center">
