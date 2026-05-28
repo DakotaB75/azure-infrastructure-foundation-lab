@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./docs/videos/microsoft-azure-client.gif" width="100%">
 </p>
+
 <h1 align="center">
   <span>Azure Infrastructure & Cloud Security Foundation Lab</span>
 </h1>
